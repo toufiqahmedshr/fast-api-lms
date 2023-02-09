@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fast-api-one"
+version = "0.1.0"
+description = ""
+authors = ["Toufiq Ahmed"]
+readme = "README.md"
+packages = [{include = "fast_api_one"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.20.0"
+fastapi = "^0.90.0"
+pydantic = "^1.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
